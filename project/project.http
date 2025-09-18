@@ -1,0 +1,6 @@
+@lol_kek_01_HostAddress = http://localhost:5092
+
+GET {{lol_kek_01_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
