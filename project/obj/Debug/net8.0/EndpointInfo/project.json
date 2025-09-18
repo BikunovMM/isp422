@@ -1,0 +1,495 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "project",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "index",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "index",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ИспользованиеФорматов": {
+        "type": "object",
+        "properties": {
+          "idиспользованияФорматов": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idпользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idформата": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "количествоИспользований": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idпользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "idформатаNavigation": {
+            "$ref": "#/components/schemas/ФорматыФайлов"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ИсторияКонвертаций": {
+        "type": "object",
+        "properties": {
+          "idисторииКонвертаций": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idпользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idконвертации": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idконвертацииNavigation": {
+            "$ref": "#/components/schemas/Конвертации"
+          },
+          "idпользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Конвертации": {
+        "type": "object",
+        "properties": {
+          "idконвертации": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idвходногоФайла": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idвыходногоФайла": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idвходногоФормата": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idвыходногоФормата": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаКонвертации": {
+            "type": "string",
+            "format": "date"
+          },
+          "idвходногоФайлаNavigation": {
+            "$ref": "#/components/schemas/Файлы"
+          },
+          "idвходногоФорматаNavigation": {
+            "$ref": "#/components/schemas/ФорматыФайлов"
+          },
+          "idвыходногоФайлаNavigation": {
+            "$ref": "#/components/schemas/Файлы"
+          },
+          "idвыходногоФорматаNavigation": {
+            "$ref": "#/components/schemas/ФорматыФайлов"
+          },
+          "историяКонвертацийs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ИсторияКонвертаций"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Настройки": {
+        "type": "object",
+        "properties": {
+          "idнастроек": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idпользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "язык": {
+            "type": "string",
+            "nullable": true
+          },
+          "уведомления": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idпользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Пользователи": {
+        "type": "object",
+        "properties": {
+          "idпользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idроли": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "адресЭлектроннойПочты": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаРегистрации": {
+            "type": "string",
+            "format": "date"
+          },
+          "idролиNavigation": {
+            "$ref": "#/components/schemas/Роли"
+          },
+          "использованиеФорматовs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ИспользованиеФорматов"
+            },
+            "nullable": true
+          },
+          "историяКонвертацийs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ИсторияКонвертаций"
+            },
+            "nullable": true
+          },
+          "настройкиs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Настройки"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Роли": {
+        "type": "object",
+        "properties": {
+          "idроли": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "название": {
+            "type": "string",
+            "nullable": true
+          },
+          "пользователиs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Пользователи"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Файлы": {
+        "type": "object",
+        "properties": {
+          "idфайла": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеФайла": {
+            "type": "string",
+            "nullable": true
+          },
+          "конвертацииIdвходногоФайлаNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Конвертации"
+            },
+            "nullable": true
+          },
+          "конвертацииIdвыходногоФайлаNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Конвертации"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ФорматыФайлов": {
+        "type": "object",
+        "properties": {
+          "idформата": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "название": {
+            "type": "string",
+            "nullable": true
+          },
+          "использованиеФорматовs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ИспользованиеФорматов"
+            },
+            "nullable": true
+          },
+          "конвертацииIdвходногоФорматаNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Конвертации"
+            },
+            "nullable": true
+          },
+          "конвертацииIdвыходногоФорматаNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Конвертации"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
