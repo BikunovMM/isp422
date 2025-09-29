@@ -11,6 +11,8 @@ public partial class ИсторияКонвертаций
 
     public int Idконвертации { get; set; }
 
+    public int? IdпараметровКонвертации { get; set; }
+
     public virtual Конвертации IdконвертацииNavigation { get; set; } = null!;
 
     public virtual Пользователи IdпользователяNavigation { get; set; } = null!;

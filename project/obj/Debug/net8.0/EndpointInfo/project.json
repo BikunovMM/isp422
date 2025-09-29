@@ -5,6 +5,910 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/ConvertationParameter": {
+      "get": {
+        "tags": [
+          "ConvertationParameter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ConvertationParameter"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ConvertationParameter"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрКонвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ConvertationParameter"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ConvertationParameter/{id}": {
+      "get": {
+        "tags": [
+          "ConvertationParameter"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ConvertationParameters": {
+      "get": {
+        "tags": [
+          "ConvertationParameters"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ConvertationParameters"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ConvertationParameters"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПараметрыКонвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ConvertationParameters"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ConvertationParameters/{id}": {
+      "get": {
+        "tags": [
+          "ConvertationParameters"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Convertations": {
+      "get": {
+        "tags": [
+          "Convertations"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Convertations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Convertations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Конвертации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Convertations"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Convertations/{id}": {
+      "get": {
+        "tags": [
+          "Convertations"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ConvertationsHistory": {
+      "get": {
+        "tags": [
+          "ConvertationsHistory"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ConvertationsHistory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ConvertationsHistory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияКонвертаций"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ConvertationsHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ConvertationsHistory/{id}": {
+      "get": {
+        "tags": [
+          "ConvertationsHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FileFormats": {
+      "get": {
+        "tags": [
+          "FileFormats"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "FileFormats"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "FileFormats"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ФорматыФайлов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "FileFormats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FileFormats/{id}": {
+      "get": {
+        "tags": [
+          "FileFormats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Files": {
+      "get": {
+        "tags": [
+          "Files"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Files"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Files"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Файлы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Files"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Files/{id}": {
+      "get": {
+        "tags": [
+          "Files"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Role"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role/{id}": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Settings": {
+      "get": {
+        "tags": [
+          "Settings"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Settings"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Settings"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Настройки"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Settings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Settings/{id}": {
+      "get": {
+        "tags": [
+          "Settings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User": {
       "get": {
         "tags": [
@@ -99,6 +1003,119 @@
       "get": {
         "tags": [
           "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UsingFormats": {
+      "get": {
+        "tags": [
+          "UsingFormats"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UsingFormats"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "UsingFormats"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИспользованиеФорматов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "UsingFormats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UsingFormats/{id}": {
+      "get": {
+        "tags": [
+          "UsingFormats"
         ],
         "parameters": [
           {
@@ -269,6 +1286,11 @@
             "type": "integer",
             "format": "int32"
           },
+          "idпараметровКонвертации": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "idконвертацииNavigation": {
             "$ref": "#/components/schemas/Конвертации"
           },
@@ -293,13 +1315,10 @@
             "type": "integer",
             "format": "int32"
           },
-          "idвходногоФормата": {
+          "idпараметровКонвертации": {
             "type": "integer",
-            "format": "int32"
-          },
-          "idвыходногоФормата": {
-            "type": "integer",
-            "format": "int32"
+            "format": "int64",
+            "nullable": true
           },
           "датаКонвертации": {
             "type": "string",
@@ -308,14 +1327,8 @@
           "idвходногоФайлаNavigation": {
             "$ref": "#/components/schemas/Файлы"
           },
-          "idвходногоФорматаNavigation": {
-            "$ref": "#/components/schemas/ФорматыФайлов"
-          },
           "idвыходногоФайлаNavigation": {
             "$ref": "#/components/schemas/Файлы"
-          },
-          "idвыходногоФорматаNavigation": {
-            "$ref": "#/components/schemas/ФорматыФайлов"
           },
           "историяКонвертацийs": {
             "type": "array",
@@ -348,6 +1361,34 @@
           },
           "idпользователяNavigation": {
             "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ПараметрКонвертации": {
+        "type": "object",
+        "properties": {
+          "idпараметраКонвертации": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "название": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ПараметрыКонвертации": {
+        "type": "object",
+        "properties": {
+          "idпараметраКонвертации": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "значение": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -438,6 +1479,10 @@
             "type": "string",
             "nullable": true
           },
+          "idформата": {
+            "type": "integer",
+            "format": "int64"
+          },
           "конвертацииIdвходногоФайлаNavigations": {
             "type": "array",
             "items": {
@@ -470,20 +1515,6 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/ИспользованиеФорматов"
-            },
-            "nullable": true
-          },
-          "конвертацииIdвходногоФорматаNavigations": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Конвертации"
-            },
-            "nullable": true
-          },
-          "конвертацииIdвыходногоФорматаNavigations": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Конвертации"
             },
             "nullable": true
           }

@@ -9,6 +9,8 @@ public partial class Файлы
 
     public string НазваниеФайла { get; set; } = null!;
 
+    public long Idформата { get; set; }
+
     public virtual ICollection<Конвертации> КонвертацииIdвходногоФайлаNavigations { get; set; } = new List<Конвертации>();
 
     public virtual ICollection<Конвертации> КонвертацииIdвыходногоФайлаNavigations { get; set; } = new List<Конвертации>();

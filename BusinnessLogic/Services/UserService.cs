@@ -16,36 +16,36 @@ namespace BusinessLogic.Services
 
         public Task<List<Пользователи>> GetAll()
         {
-            return _repositoryWrapper.User.FindAll().ToListAsync();
+            return _repositoryWrapper.Users.FindAll().ToListAsync();
         }
 
         public Task<Пользователи> GetById(int id)
         {
-            var user = _repositoryWrapper.User
+            var user = _repositoryWrapper.Users
                 .FindByCondition(x => x.Idпользователя == id).First();
             return Task.FromResult(user);
         }
 
         public Task Create(Пользователи model)
         {
-            _repositoryWrapper.User.Create(model);
+            _repositoryWrapper.Users.Create(model);
             _repositoryWrapper.Save();
             return Task.CompletedTask;
         }
 
         public Task Update(Пользователи model)
         {
-            _repositoryWrapper.User.Update(model);
+            _repositoryWrapper.Users.Update(model);
             _repositoryWrapper.Save();
             return Task.CompletedTask;
         }
 
         public Task Delete(int id)
         {
-            var user = _repositoryWrapper.User
+            var user = _repositoryWrapper.Users
                 .FindByCondition(x => x.Idпользователя == id).First();
 
-            _repositoryWrapper.User.Delete(user);
+            _repositoryWrapper.Users.Delete(user);
             _repositoryWrapper.Save();
             return Task.CompletedTask;
         }

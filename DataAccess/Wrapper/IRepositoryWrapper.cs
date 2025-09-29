@@ -10,7 +10,16 @@ namespace DataAccess.Wrapper
 {
     public interface IRepositoryWrapper
     {
-        IUserRepository User { get; }
+        IUserRepository Users { get; }
+        IRoleRepository Role { get; }
+        ISettingsRepository Settings { get; }
+        IFileFormatsRepository FileFormats { get; }
+        IUsingFormatsRepository UsingFormats { get; }
+        IFilesRepository Files { get; }
+        IConvertationsRepository Convertations { get; }
+        IConvertationsHistoryRepository ConvertationsHistory { get; }
+        IConvertationParameterRepository ConvertationParameter { get; }
+        IConvertationParametersRepository ConvertationParameters { get; }
         void Save();
     }
 }

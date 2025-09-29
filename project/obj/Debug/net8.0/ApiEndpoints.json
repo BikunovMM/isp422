@@ -1,5 +1,597 @@
 [
   {
+    "ContainingType": "BackendApi.Controllers.ConvertationParameterController",
+    "Method": "GetAll",
+    "RelativePath": "api/ConvertationParameter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParameterController",
+    "Method": "Add",
+    "RelativePath": "api/ConvertationParameter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationParameter",
+        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParameterController",
+    "Method": "Update",
+    "RelativePath": "api/ConvertationParameter",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationParameter",
+        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParameterController",
+    "Method": "Delete",
+    "RelativePath": "api/ConvertationParameter",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParameterController",
+    "Method": "GetById",
+    "RelativePath": "api/ConvertationParameter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParametersController",
+    "Method": "GetAll",
+    "RelativePath": "api/ConvertationParameters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParametersController",
+    "Method": "Add",
+    "RelativePath": "api/ConvertationParameters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationParameters",
+        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParametersController",
+    "Method": "Update",
+    "RelativePath": "api/ConvertationParameters",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationParameters",
+        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParametersController",
+    "Method": "Delete",
+    "RelativePath": "api/ConvertationParameters",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationParametersController",
+    "Method": "GetById",
+    "RelativePath": "api/ConvertationParameters/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Convertations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsController",
+    "Method": "Add",
+    "RelativePath": "api/Convertations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertation",
+        "Type": "DataAccess.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsController",
+    "Method": "Update",
+    "RelativePath": "api/Convertations",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertation",
+        "Type": "DataAccess.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Convertations",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Convertations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsHistoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/ConvertationsHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsHistoryController",
+    "Method": "Add",
+    "RelativePath": "api/ConvertationsHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationHistory",
+        "Type": "DataAccess.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsHistoryController",
+    "Method": "Update",
+    "RelativePath": "api/ConvertationsHistory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "convertationHistory",
+        "Type": "DataAccess.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsHistoryController",
+    "Method": "Delete",
+    "RelativePath": "api/ConvertationsHistory",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.ConvertationsHistoryController",
+    "Method": "GetById",
+    "RelativePath": "api/ConvertationsHistory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FileFormatsController",
+    "Method": "GetAll",
+    "RelativePath": "api/FileFormats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FileFormatsController",
+    "Method": "Add",
+    "RelativePath": "api/FileFormats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileFormat",
+        "Type": "DataAccess.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FileFormatsController",
+    "Method": "Update",
+    "RelativePath": "api/FileFormats",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileFormat",
+        "Type": "DataAccess.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FileFormatsController",
+    "Method": "Delete",
+    "RelativePath": "api/FileFormats",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FileFormatsController",
+    "Method": "GetById",
+    "RelativePath": "api/FileFormats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FilesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FilesController",
+    "Method": "Add",
+    "RelativePath": "api/Files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "DataAccess.Models.\u0424\u0430\u0439\u043B\u044B",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FilesController",
+    "Method": "Update",
+    "RelativePath": "api/Files",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "DataAccess.Models.\u0424\u0430\u0439\u043B\u044B",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FilesController",
+    "Method": "Delete",
+    "RelativePath": "api/Files",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.FilesController",
+    "Method": "GetById",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.RoleController",
+    "Method": "Add",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "DataAccess.Models.\u0420\u043E\u043B\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/Role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "DataAccess.Models.\u0420\u043E\u043B\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.SettingsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.SettingsController",
+    "Method": "Add",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settings",
+        "Type": "DataAccess.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.SettingsController",
+    "Method": "Update",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "DataAccess.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.SettingsController",
+    "Method": "Delete",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.SettingsController",
+    "Method": "GetById",
+    "RelativePath": "api/Settings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BackendApi.Controllers.UserController",
     "Method": "GetAll",
     "RelativePath": "api/User",
@@ -61,6 +653,80 @@
     "ContainingType": "BackendApi.Controllers.UserController",
     "Method": "GetById",
     "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.UsingFormatsController",
+    "Method": "GetAll",
+    "RelativePath": "api/UsingFormats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.UsingFormatsController",
+    "Method": "Add",
+    "RelativePath": "api/UsingFormats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usingFormat",
+        "Type": "DataAccess.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.UsingFormatsController",
+    "Method": "Update",
+    "RelativePath": "api/UsingFormats",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usingFormat",
+        "Type": "DataAccess.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.UsingFormatsController",
+    "Method": "Delete",
+    "RelativePath": "api/UsingFormats",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendApi.Controllers.UsingFormatsController",
+    "Method": "GetById",
+    "RelativePath": "api/UsingFormats/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -31,6 +31,10 @@ public partial class DbIsp422Context : DbContext
 
     public virtual DbSet<Настройки> Настройкиs { get; set; }
 
+    public virtual DbSet<ПараметрКонвертации> ПараметрКонвертацииs { get; set; }
+
+    public virtual DbSet<ПараметрыКонвертации> ПараметрыКонвертацииs { get; set; }
+
     public virtual DbSet<Пользователи> Пользователиs { get; set; }
 
     public virtual DbSet<ПорядковыйНомерМинус1> ПорядковыйНомерМинус1s { get; set; }
@@ -42,6 +46,10 @@ public partial class DbIsp422Context : DbContext
     public virtual DbSet<ФорматыФайлов> ФорматыФайловs { get; set; }
 
     public virtual DbSet<ЧастотаКонвертаций> ЧастотаКонвертацийs { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ; TrustServerCertificate= True ;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -75,7 +83,7 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<ИспользованиеФорматов>(entity =>
         {
-            entity.HasKey(e => e.IdиспользованияФорматов).HasName("PK__Использо__9171285F58BC9DC9");
+            entity.HasKey(e => e.IdиспользованияФорматов).HasName("PK__Использо__9171285F3195ED75");
 
             entity.ToTable("ИспользованиеФорматов");
 
@@ -96,12 +104,13 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<ИсторияКонвертаций>(entity =>
         {
-            entity.HasKey(e => e.IdисторииКонвертаций).HasName("PK__ИсторияК__D63642FBA1242814");
+            entity.HasKey(e => e.IdисторииКонвертаций).HasName("PK__ИсторияК__D63642FB00768E2C");
 
             entity.ToTable("ИсторияКонвертаций");
 
             entity.Property(e => e.IdисторииКонвертаций).HasColumnName("IDИсторииКонвертаций");
             entity.Property(e => e.Idконвертации).HasColumnName("IDКонвертации");
+            entity.Property(e => e.IdпараметровКонвертации).HasColumnName("IDПараметровКонвертации");
             entity.Property(e => e.Idпользователя).HasColumnName("IDПользователя");
 
             entity.HasOne(d => d.IdконвертацииNavigation).WithMany(p => p.ИсторияКонвертацийs)
@@ -117,35 +126,24 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<Конвертации>(entity =>
         {
-            entity.HasKey(e => e.Idконвертации).HasName("PK__Конверта__3ABF9A5DF62EE215");
+            entity.HasKey(e => e.Idконвертации).HasName("PK__Конверта__3ABF9A5D1587A147");
 
             entity.ToTable("Конвертации");
 
             entity.Property(e => e.Idконвертации).HasColumnName("IDКонвертации");
             entity.Property(e => e.IdвходногоФайла).HasColumnName("IDВходногоФайла");
-            entity.Property(e => e.IdвходногоФормата).HasColumnName("IDВходногоФормата");
             entity.Property(e => e.IdвыходногоФайла).HasColumnName("IDВыходногоФайла");
-            entity.Property(e => e.IdвыходногоФормата).HasColumnName("IDВыходногоФормата");
+            entity.Property(e => e.IdпараметровКонвертации).HasColumnName("IDПараметровКонвертации");
 
             entity.HasOne(d => d.IdвходногоФайлаNavigation).WithMany(p => p.КонвертацииIdвходногоФайлаNavigations)
                 .HasForeignKey(d => d.IdвходногоФайла)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Конвертац__IDВхо__52593CB8");
 
-            entity.HasOne(d => d.IdвходногоФорматаNavigation).WithMany(p => p.КонвертацииIdвходногоФорматаNavigations)
-                .HasForeignKey(d => d.IdвходногоФормата)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Конвертац__IDВхо__534D60F1");
-
             entity.HasOne(d => d.IdвыходногоФайлаNavigation).WithMany(p => p.КонвертацииIdвыходногоФайлаNavigations)
                 .HasForeignKey(d => d.IdвыходногоФайла)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Конвертац__IDВых__5441852A");
-
-            entity.HasOne(d => d.IdвыходногоФорматаNavigation).WithMany(p => p.КонвертацииIdвыходногоФорматаNavigations)
-                .HasForeignKey(d => d.IdвыходногоФормата)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Конвертац__IDВых__5535A963");
         });
 
         modelBuilder.Entity<НазначениеIdвсемКонвертациям>(entity =>
@@ -160,7 +158,7 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<Настройки>(entity =>
         {
-            entity.HasKey(e => e.Idнастроек).HasName("PK__Настройк__11166FF5E4D8E784");
+            entity.HasKey(e => e.Idнастроек).HasName("PK__Настройк__11166FF5D815ECC8");
 
             entity.ToTable("Настройки");
 
@@ -176,15 +174,43 @@ public partial class DbIsp422Context : DbContext
                 .HasConstraintName("FK__Настройки__IDПол__5629CD9C");
         });
 
+        modelBuilder.Entity<ПараметрКонвертации>(entity =>
+        {
+            entity.HasKey(e => e.IdпараметраКонвертации);
+
+            entity.ToTable("ПараметрКонвертации");
+
+            entity.Property(e => e.IdпараметраКонвертации)
+                .ValueGeneratedNever()
+                .HasColumnName("IDПараметраКонвертации");
+            entity.Property(e => e.Название)
+                .HasMaxLength(16)
+                .IsFixedLength();
+        });
+
+        modelBuilder.Entity<ПараметрыКонвертации>(entity =>
+        {
+            entity.HasKey(e => e.IdпараметраКонвертации);
+
+            entity.ToTable("ПараметрыКонвертации");
+
+            entity.Property(e => e.IdпараметраКонвертации)
+                .ValueGeneratedNever()
+                .HasColumnName("IDПараметраКонвертации");
+            entity.Property(e => e.Значение)
+                .HasMaxLength(16)
+                .IsFixedLength();
+        });
+
         modelBuilder.Entity<Пользователи>(entity =>
         {
-            entity.HasKey(e => e.Idпользователя).HasName("PK__Пользова__B58D26DA0DD53874");
+            entity.HasKey(e => e.Idпользователя).HasName("PK__Пользова__B58D26DAE60FCCE0");
 
             entity.ToTable("Пользователи");
 
-            entity.HasIndex(e => e.Пароль, "UQ__Пользова__130C4ECFD1971866").IsUnique();
+            entity.HasIndex(e => e.Пароль, "UQ__Пользова__130C4ECF13F3C291").IsUnique();
 
-            entity.HasIndex(e => e.Логин, "UQ__Пользова__BC2217D3D597AC0B").IsUnique();
+            entity.HasIndex(e => e.Логин, "UQ__Пользова__BC2217D33F4B4A9A").IsUnique();
 
             entity.Property(e => e.Idпользователя).HasColumnName("IDПользователя");
             entity.Property(e => e.Idроли).HasColumnName("IDРоли");
@@ -216,11 +242,11 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<Роли>(entity =>
         {
-            entity.HasKey(e => e.Idроли).HasName("PK__Роли__22FFC98EAD7EA88C");
+            entity.HasKey(e => e.Idроли).HasName("PK__Роли__22FFC98EB699A054");
 
             entity.ToTable("Роли");
 
-            entity.HasIndex(e => e.Название, "UQ__Роли__38DA80352D02989A").IsUnique();
+            entity.HasIndex(e => e.Название, "UQ__Роли__38DA80358CE0501A").IsUnique();
 
             entity.Property(e => e.Idроли).HasColumnName("IDРоли");
             entity.Property(e => e.Название)
@@ -230,13 +256,14 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<Файлы>(entity =>
         {
-            entity.HasKey(e => e.Idфайла).HasName("PK__Файлы__DC2A4F0003D79AE2");
+            entity.HasKey(e => e.Idфайла).HasName("PK__Файлы__DC2A4F00A787B3C7");
 
             entity.ToTable("Файлы");
 
             entity.Property(e => e.Idфайла)
                 .ValueGeneratedNever()
                 .HasColumnName("IDФайла");
+            entity.Property(e => e.Idформата).HasColumnName("IDФормата");
             entity.Property(e => e.НазваниеФайла)
                 .HasMaxLength(25)
                 .IsUnicode(false);
@@ -244,11 +271,11 @@ public partial class DbIsp422Context : DbContext
 
         modelBuilder.Entity<ФорматыФайлов>(entity =>
         {
-            entity.HasKey(e => e.Idформата).HasName("PK__ФорматыФ__479E4A8483383BCB");
+            entity.HasKey(e => e.Idформата).HasName("PK__ФорматыФ__479E4A84968FED91");
 
             entity.ToTable("ФорматыФайлов");
 
-            entity.HasIndex(e => e.Название, "UQ__ФорматыФ__38DA80351CD6B1EB").IsUnique();
+            entity.HasIndex(e => e.Название, "UQ__ФорматыФ__38DA8035A12B6CC9").IsUnique();
 
             entity.Property(e => e.Idформата)
                 .ValueGeneratedNever()
