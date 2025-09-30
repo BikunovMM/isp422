@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -13,40 +13,37 @@ namespace BusinessLogic.Services
         {
             _repositoryWrapper = repositoryWrapper;
         }
-        public Task<List<ИсторияКонвертаций>> GetAll()
+        public async Task<List<ИсторияКонвертаций>> GetAll()
         {
-            return _repositoryWrapper.ConvertationsHistory.FindAll().ToListAsync();
+            return await _repositoryWrapper.ConvertationsHistory.FindAll();
         }
 
-        public Task<ИсторияКонвертаций> GetById(int id)
+        public async Task<ИсторияКонвертаций> GetById(int id)
         {
-            var role = _repositoryWrapper.ConvertationsHistory
-                .FindByCondition(x => x.IdисторииКонвертаций == id).First();
-            return Task.FromResult(role);
+            var role = await _repositoryWrapper.ConvertationsHistory
+                .FindByCondition(x => x.IdисторииКонвертаций == id);
+            return role.First();
         }
 
-        public Task Create(ИсторияКонвертаций model)
+        public async Task Create(ИсторияКонвертаций model)
         {
-            _repositoryWrapper.ConvertationsHistory.Create(model);
+            await _repositoryWrapper.ConvertationsHistory.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(ИсторияКонвертаций model)
+        public async Task Update(ИсторияКонвертаций model)
         {
-            _repositoryWrapper.ConvertationsHistory.Update(model);
+            await _repositoryWrapper.ConvertationsHistory.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var convertation = _repositoryWrapper.ConvertationsHistory
-                .FindByCondition(x => x.IdисторииКонвертаций == id).First();
+            var convertation = await _repositoryWrapper.ConvertationsHistory
+                .FindByCondition(x => x.IdисторииКонвертаций == id);
 
-            _repositoryWrapper.ConvertationsHistory.Delete(convertation);
+            _repositoryWrapper.ConvertationsHistory.Delete(convertation.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

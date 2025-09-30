@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -13,40 +13,37 @@ namespace BusinessLogic.Services
         {
             _repositoryWrapper = repositoryWrapper;
         }
-        public Task<List<ПараметрКонвертации>> GetAll()
+        public async Task<List<ПараметрКонвертации>> GetAll()
         {
-            return _repositoryWrapper.ConvertationParameter.FindAll().ToListAsync();
+            return await _repositoryWrapper.ConvertationParameter.FindAll();
         }
 
-        public Task<ПараметрКонвертации> GetById(int id)
+        public async Task<ПараметрКонвертации> GetById(int id)
         {
-            var role = _repositoryWrapper.ConvertationParameter
-                .FindByCondition(x => x.IdпараметраКонвертации == id).First();
-            return Task.FromResult(role);
+            var role = await _repositoryWrapper.ConvertationParameter
+                .FindByCondition(x => x.IdпараметраКонвертации == id);
+            return role.First();
         }
 
-        public Task Create(ПараметрКонвертации model)
+        public async Task Create(ПараметрКонвертации model)
         {
-            _repositoryWrapper.ConvertationParameter.Create(model);
+            await _repositoryWrapper.ConvertationParameter.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(ПараметрКонвертации model)
+        public async Task Update(ПараметрКонвертации model)
         {
-            _repositoryWrapper.ConvertationParameter.Update(model);
+            await _repositoryWrapper.ConvertationParameter.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var convertationParameter = _repositoryWrapper.ConvertationParameter
-                .FindByCondition(x => x.IdпараметраКонвертации == id).First();
+            var convertationParameter = await _repositoryWrapper.ConvertationParameter
+                .FindByCondition(x => x.IdпараметраКонвертации == id);
 
-            _repositoryWrapper.ConvertationParameter.Delete(convertationParameter);
+            _repositoryWrapper.ConvertationParameter.Delete(convertationParameter.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

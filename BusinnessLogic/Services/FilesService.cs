@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -13,40 +13,37 @@ namespace BusinessLogic.Services
         {
             _repositoryWrapper = repositoryWrapper;
         }
-        public Task<List<Файлы>> GetAll()
+        public async Task<List<Файлы>> GetAll()
         {
-            return _repositoryWrapper.Files.FindAll().ToListAsync();
+            return await _repositoryWrapper.Files.FindAll();
         }
 
-        public Task<Файлы> GetById(int id)
+        public async Task<Файлы> GetById(int id)
         {
-            var role = _repositoryWrapper.Files
-                .FindByCondition(x => x.Idфайла == id).First();
-            return Task.FromResult(role);
+            var role = await  _repositoryWrapper.Files
+                .FindByCondition(x => x.Idфайла == id);
+            return role.First();
         }
 
-        public Task Create(Файлы model)
+        public async Task Create(Файлы model)
         {
-            _repositoryWrapper.Files.Create(model);
+            await _repositoryWrapper.Files.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(Файлы model)
+        public async Task Update(Файлы model)
         {
-            _repositoryWrapper.Files.Update(model);
+            await _repositoryWrapper.Files.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var file = _repositoryWrapper.Files
-                .FindByCondition(x => x.Idфайла == id).First();
+            var file = await _repositoryWrapper.Files
+                .FindByCondition(x => x.Idфайла == id);
 
-            _repositoryWrapper.Files.Delete(file);
+            _repositoryWrapper.Files.Delete(file.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

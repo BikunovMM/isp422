@@ -1,243 +1,249 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\project422\\project\\",
+  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\convertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\convertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iconvertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\convertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\convertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\convertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\fileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\services\\usingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\filesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\convertationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\convertationshistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\convertationparametersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\convertationparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\ifileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\ifilesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\ifilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iusingformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\convertationparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iusingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\convertationparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iconvertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationparametersrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\wrapper\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\convertationparametersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\convertationparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iconvertationparametersrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iconvertationparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\convertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\convertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\convertationshistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iconvertationshistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iconvertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\models\\dbisp422context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Models1\\DbIsp422Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iusingformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\convertationshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\convertationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iconvertationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\convertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iconvertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\fileformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\fileformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\fileformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\ifileformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\fileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\ifileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\ifilesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\ifilesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\filesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\usingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\iusingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\usingformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\usingformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\usingformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\usingformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\models\\dbisp422context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:models\\dbisp422context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\isettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422\\project\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\settingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\fileformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\fileformatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422\\dataaccess\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\convertationshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422\\businnesslogic\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\convertationparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationparameterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\RepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\controllers\\convertationparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:controllers\\convertationparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\usingformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Models\\DbIsp422Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IRepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\settingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\RepositoryWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\repositories\\fileformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\DataAccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\dbisp422context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\IRepositoryWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\BusinnessLogic\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0447\u0430\u0441\u0442\u043E\u0442\u0430\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\BusinnessLogic\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0444\u043E\u0440\u043C\u0430\u0442\u044B\u0444\u0430\u0439\u043B\u043E\u0432.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IRepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0444\u0430\u0439\u043B\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0440\u043E\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u043D\u043E\u043C\u0435\u0440\u043C\u0438\u043D\u0443\u04411.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435id\u0432\u0441\u0435\u043C\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0438\u0441\u0442\u043E\u0440\u0438\u044F\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0444\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\\u0434\u0430\u0442\u044B\u0432\u0441\u0435\u0445\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\view4\u043F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u043D\u043E\u043C\u0435\u0440\u043C\u0438\u043D\u0443\u04411.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\models\\view1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|..\\BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\businnesslogic\\businnesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C1238F-3EC8-20F4-994E-AB5AB921761B}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\isettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\ifileformatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationshistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project422_2\\isp422\\domain\\interfaces\\iconvertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -247,884 +253,1007 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConvertationParametersController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationParametersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConvertationParametersController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationParametersController.cs",
-              "RelativeToolTip": "Controllers\\ConvertationParametersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "UsingFormatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\UsingFormatsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsingFormatsController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\UsingFormatsController.cs",
+              "RelativeToolTip": "Controllers\\UsingFormatsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T05:59:47.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConvertationParametersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T05:57:58.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IConvertationParametersRepository .cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationParametersRepository .cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IConvertationParametersRepository .cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationParametersRepository .cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IConvertationParametersRepository .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T05:57:11.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConvertationParametersService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T05:55:36.27Z",
+              "WhenOpened": "2025-09-30T09:32:32.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IConvertationParametersService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationParametersService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IConvertationParametersService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationParametersService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IConvertationParametersService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T05:54:33.957Z",
+              "WhenOpened": "2025-09-30T09:32:29.185Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConvertationParameterController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationParameterController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConvertationParameterController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationParameterController.cs",
-              "RelativeToolTip": "Controllers\\ConvertationParameterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:31:55.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConvertationParameterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:30:04.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IConvertationParameterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationParameterRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IConvertationParameterRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationParameterRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IConvertationParameterRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:29:39.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ConvertationParameterService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:27:13.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IConvertationParameterService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationParameterService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IConvertationParameterService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationParameterService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IConvertationParameterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:25:50.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DbIsp422Context.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Models\\DbIsp422Context.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Models\\DbIsp422Context.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Models\\DbIsp422Context.cs",
-              "RelativeToolTip": "..\\DataAccess\\Models\\DbIsp422Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:19:05.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DbIsp422Context.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Models1\\DbIsp422Context.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Models1\\DbIsp422Context.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Models1\\DbIsp422Context.cs",
-              "RelativeToolTip": "..\\DataAccess\\Models1\\DbIsp422Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:18:18.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ConvertationsHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationsHistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConvertationsHistoryController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationsHistoryController.cs",
-              "RelativeToolTip": "Controllers\\ConvertationsHistoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:09:10.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ConvertationsHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:07:33.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IConvertationsHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationsHistoryRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IConvertationsHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationsHistoryRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IConvertationsHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:07:03.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConvertationsHistoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:05:58.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IConvertationsHistoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationsHistoryService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IConvertationsHistoryService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationsHistoryService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IConvertationsHistoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:05:14.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ConvertationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConvertationsController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\ConvertationsController.cs",
-              "RelativeToolTip": "Controllers\\ConvertationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:01:49.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ConvertationsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\ConvertationsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:55:14.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IConvertationsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IConvertationsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IConvertationsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IConvertationsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:52:35.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ConvertationsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\ConvertationsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:50:58.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IConvertationsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IConvertationsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IConvertationsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IConvertationsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:50:25.406Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "FilesController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\FilesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FilesController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\FilesController.cs",
-              "RelativeToolTip": "Controllers\\FilesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:39:21.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "FilesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\FilesRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\FilesRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\FilesRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\FilesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:38:25.026Z"
+              "WhenOpened": "2025-09-30T09:32:25.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "IFilesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IFilesRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IFilesRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IFilesRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IFilesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:37:54.634Z"
+              "WhenOpened": "2025-09-30T09:32:21.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "FilesService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\FilesService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\FilesService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\FilesService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\FilesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilesController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "Controllers\\FilesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:36:35.032Z"
+              "WhenOpened": "2025-09-30T09:32:17.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "IFilesService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IFilesService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IFilesService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IFilesService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IFilesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Title": "FileFormatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\FileFormatsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileFormatsController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\FileFormatsController.cs",
+              "RelativeToolTip": "Controllers\\FileFormatsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:35:55.47Z"
+              "WhenOpened": "2025-09-30T09:32:14.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ConvertationsHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationsHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConvertationsHistoryController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationsHistoryController.cs",
+              "RelativeToolTip": "Controllers\\ConvertationsHistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:32:03.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ConvertationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConvertationsController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationsController.cs",
+              "RelativeToolTip": "Controllers\\ConvertationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:31:53.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConvertationParametersController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationParametersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConvertationParametersController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationParametersController.cs",
+              "RelativeToolTip": "Controllers\\ConvertationParametersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:31:20.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "UsingFormatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\UsingFormatsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsingFormatsController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\UsingFormatsController.cs",
-              "RelativeToolTip": "Controllers\\UsingFormatsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
+              "Title": "ConvertationParameterController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationParameterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConvertationParameterController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Controllers\\ConvertationParameterController.cs",
+              "RelativeToolTip": "Controllers\\ConvertationParameterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:27:01.397Z"
+              "WhenOpened": "2025-09-30T09:31:14.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwI0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:30:56.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "UsingFormatsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
               "RelativeToolTip": "..\\DataAccess\\Repositories\\UsingFormatsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:22:54.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUsingFormatsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IUsingFormatsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IUsingFormatsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IUsingFormatsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IUsingFormatsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:22:26.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UsingFormatsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\UsingFormatsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\UsingFormatsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:21:09.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IUsingFormatsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IUsingFormatsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IUsingFormatsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IUsingFormatsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IUsingFormatsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:18:50.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FileFormatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\FileFormatsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FileFormatsController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\FileFormatsController.cs",
-              "RelativeToolTip": "Controllers\\FileFormatsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:12:51.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "FileFormatsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\FileFormatsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\FileFormatsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\FileFormatsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\FileFormatsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:09:56.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IFileFormatsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IFileFormatsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IFileFormatsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IFileFormatsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IFileFormatsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:08:41.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FileFormatsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\FileFormatsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\FileFormatsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\FileFormatsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\FileFormatsService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:05:55.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IFileFormatsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IFileFormatsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IFileFormatsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IFileFormatsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IFileFormatsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:05:00.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SettingsController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\SettingsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SettingsController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\SettingsController.cs",
-              "RelativeToolTip": "Controllers\\SettingsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:27:21.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "SettingsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\SettingsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\SettingsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\SettingsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\SettingsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:25:38.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ISettingsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\ISettingsRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\ISettingsRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\ISettingsRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\ISettingsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:25:00.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "SettingsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\SettingsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\SettingsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\SettingsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\SettingsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:23:45.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ISettingsService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\ISettingsService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\ISettingsService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\ISettingsService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\ISettingsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:23:12.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:15:46.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:15:44.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:15:30.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeToolTip": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAIwHwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:12:33.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeToolTip": "..\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:11:45.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:06:23.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\RoleService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\RoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:05:24.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:05:33.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IRoleRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IRoleRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IRoleRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:04:57.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:04:46.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IRoleService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IRoleService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IRoleService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IRoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:03:47.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:02:38.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T15:31:56.227Z"
+              "WhenOpened": "2025-09-30T09:30:30.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
-              "Title": "DbIsp422Context.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Models\\DbIsp422Context.cs",
-              "RelativeDocumentMoniker": "Models\\DbIsp422Context.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Models\\DbIsp422Context.cs",
-              "RelativeToolTip": "Models\\DbIsp422Context.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC8AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T06:29:04.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:18:42.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:18:33.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\..\\swag00\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "..\\..\\swag00\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:18:19.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\swag00\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\..\\swag00\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:18:18.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\..\\swag00\\DataAccess\\Class1.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\swag00\\DataAccess\\Class1.cs",
-              "RelativeToolTip": "..\\..\\swag00\\DataAccess\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T05:18:12.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Repositories\\RepositoryBase.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:19:44.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:18:31.522Z"
+              "WhenOpened": "2025-09-30T09:30:25.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "DbIsp422Context.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Models\\DbIsp422Context.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Models\\DbIsp422Context.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Models\\DbIsp422Context.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Models\\DbIsp422Context.cs",
+              "DocumentIndex": 48,
+              "Title": "SettingsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\SettingsRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\SettingsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\SettingsRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\SettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:16:34.268Z"
+              "WhenOpened": "2025-09-30T09:30:21.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Interfaces\\IRepositoryBase.cs",
+              "DocumentIndex": 10,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:15:18.088Z"
+              "WhenOpened": "2025-09-30T09:30:16.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "RepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "DocumentIndex": 29,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:13:52.517Z"
+              "WhenOpened": "2025-09-30T09:30:10.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Interfaces\\IUserRepository.cs",
+              "DocumentIndex": 11,
+              "Title": "FilesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\FilesRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\FilesRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\FilesRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\FilesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:12:08.714Z"
+              "WhenOpened": "2025-09-30T09:30:06.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\DataAccess.csproj",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\DataAccess.csproj",
-              "RelativeToolTip": "..\\..\\DataAccess\\DataAccess.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-16T10:07:16.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "IRepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "..\\..\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeToolTip": "..\\..\\DataAccess\\Wrapper\\IRepositoryWrapper.cs",
+              "DocumentIndex": 49,
+              "Title": "FileFormatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\FileFormatsRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\FileFormatsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\FileFormatsRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\FileFormatsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:04:53.089Z"
+              "WhenOpened": "2025-09-30T09:30:02.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 12,
+              "Title": "ConvertationsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationsRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationsRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:29:58.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConvertationsHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationsHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:29:53.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConvertationParametersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationParametersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:29:48.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConvertationParameterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\ConvertationParameterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:56.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsingFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:43.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\BusinnessLogic\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\BusinnessLogic\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\BusinnessLogic\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\..\\BusinnessLogic\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:04:42.733Z"
+              "WhenOpened": "2025-09-30T09:28:38.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\BusinnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\..\\BusinnessLogic\\Interfaces\\IUserService.cs",
+              "DocumentIndex": 7,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\SettingsService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T10:04:39.484Z"
+              "WhenOpened": "2025-09-30T09:28:34.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "project.csproj",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\project.csproj",
-              "RelativeDocumentMoniker": "project.csproj",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\project.csproj",
-              "RelativeToolTip": "project.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-16T09:53:09.571Z"
+              "DocumentIndex": 6,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\RoleService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:28.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FilesService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\FilesService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\FilesService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\FilesService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\FilesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:57:51.779Z"
+              "WhenOpened": "2025-09-30T09:28:24.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConvertationsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Class1.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:28:05.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422\\project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\project422\\project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABcAAAAAAAAAA==",
+              "Title": "ConvertationsHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:57:45.655Z",
+              "WhenOpened": "2025-09-30T09:27:59.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConvertationParametersService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:27:45.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConvertationParameterService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "RelativeToolTip": "..\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:27:23.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-30T09:26:22.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "BusinnessLogic",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\BusinnessLogic.csproj",
+              "RelativeDocumentMoniker": "..\\BusinnessLogic\\BusinnessLogic.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\BusinnessLogic\\BusinnessLogic.csproj",
+              "RelativeToolTip": "..\\BusinnessLogic\\BusinnessLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-30T09:20:29.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DataAccess",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "..\\DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "..\\DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-30T09:19:55.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "project",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\project.csproj",
+              "RelativeDocumentMoniker": "project.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\project.csproj",
+              "RelativeToolTip": "project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-30T09:19:15.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "\u0427\u0430\u0441\u0442\u043E\u0442\u0430\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0427\u0430\u0441\u0442\u043E\u0442\u0430\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0427\u0430\u0441\u0442\u043E\u0442\u0430\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0427\u0430\u0441\u0442\u043E\u0442\u0430\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0427\u0430\u0441\u0442\u043E\u0442\u0430\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:47.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:43.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "\u0424\u0430\u0439\u043B\u044B.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0424\u0430\u0439\u043B\u044B.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0424\u0430\u0439\u043B\u044B.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0424\u0430\u0439\u043B\u044B.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0424\u0430\u0439\u043B\u044B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:39.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "\u0420\u043E\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:35.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:32.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:28.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:21.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:18.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435Id\u0432\u0441\u0435\u043C\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435Id\u0432\u0441\u0435\u043C\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435Id\u0432\u0441\u0435\u043C\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435Id\u0432\u0441\u0435\u043C\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435Id\u0432\u0441\u0435\u043C\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F\u043C.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:15.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:07.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:03.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "\u0414\u0430\u0442\u044B\u0412\u0441\u0435\u0445\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0414\u0430\u0442\u044B\u0412\u0441\u0435\u0445\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0414\u0430\u0442\u044B\u0412\u0441\u0435\u0445\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\\u0414\u0430\u0442\u044B\u0412\u0441\u0435\u0445\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0414\u0430\u0442\u044B\u0412\u0441\u0435\u0445\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:03:00.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "View4\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\View4\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\View4\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\View4\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\View4\u041F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0439\u041D\u043E\u043C\u0435\u0440\u041C\u0438\u043D\u0443\u04411.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:56.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "View1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\View1.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\View1.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\View1.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\View1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:53.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DbIsp422Context.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\DbIsp422Context.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\DbIsp422Context.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Models\\DbIsp422Context.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\DbIsp422Context.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA2wDcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:48.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUsingFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUsingFormatsService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUsingFormatsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUsingFormatsService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUsingFormatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:18.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUsingFormatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUsingFormatsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUsingFormatsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUsingFormatsRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUsingFormatsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:12.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:08.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:04.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ISettingsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\ISettingsService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\ISettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:02:01.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ISettingsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:56.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:52.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:48.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:33.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:29.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFilesService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFilesService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IFilesService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFilesService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IFilesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:26.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFilesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFilesRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IFilesRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFilesRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IFilesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:23.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFileFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFileFormatsService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IFileFormatsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFileFormatsService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IFileFormatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:19.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IFileFormatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFileFormatsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IFileFormatsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IFileFormatsRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IFileFormatsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:16.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IConvertationsService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationsService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:13.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IConvertationsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationsRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:09.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IConvertationsHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsHistoryService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationsHistoryService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsHistoryService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationsHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:06.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IConvertationsHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsHistoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationsHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationsHistoryRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationsHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:01:01.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IConvertationParametersService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParametersService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationParametersService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParametersService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationParametersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:00:57.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IConvertationParametersRepository .cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParametersRepository .cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationParametersRepository .cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParametersRepository .cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationParametersRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:00:54.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IConvertationParameterService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParameterService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationParameterService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParameterService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationParameterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:00:50.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IConvertationParameterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParameterRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IConvertationParameterRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\Domain\\Interfaces\\IConvertationParameterRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IConvertationParameterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:00:41.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project422_2\\isp422\\project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T08:56:54.055Z",
               "EditorCaption": ""
             }
           ]

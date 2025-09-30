@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -14,40 +14,37 @@ namespace BusinessLogic.Services
             _repositoryWrapper = repositoryWrapper;
         }
 
-        public Task<List<Роли>> GetAll()
+        public async Task<List<Роли>> GetAll()
         {
-            return _repositoryWrapper.Role.FindAll().ToListAsync();
+            return await _repositoryWrapper.Role.FindAll();
         }
 
-        public Task<Роли> GetById(int id)
+        public async Task<Роли> GetById(int id)
         {
-            var role = _repositoryWrapper.Role
-                .FindByCondition(x => x.Idроли == id).First();
-            return Task.FromResult(role);
+            var role = await _repositoryWrapper.Role
+                .FindByCondition(x => x.Idроли == id);
+            return role.First();
         }
 
-        public Task Create(Роли model)
+        public async Task Create(Роли model)
         {
-            _repositoryWrapper.Role.Create(model);
+            await _repositoryWrapper.Role.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(Роли model)
+        public async Task Update(Роли model)
         {
-            _repositoryWrapper.Role.Update(model);
+            await _repositoryWrapper.Role.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var role = _repositoryWrapper.Role
-                .FindByCondition(x => x.Idроли == id).First();
+            var role = await _repositoryWrapper.Role
+                .FindByCondition(x => x.Idроли == id);
 
-            _repositoryWrapper.Role.Delete(role);
+            _repositoryWrapper.Role.Delete(role.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -14,40 +14,37 @@ namespace BusinessLogic.Services
             _repositoryWrapper = repositoryWrapper;
         }
 
-        public Task<List<Настройки>> GetAll()
+        public async Task<List<Настройки>> GetAll()
         {
-            return _repositoryWrapper.Settings.FindAll().ToListAsync();
+            return await _repositoryWrapper.Settings.FindAll();
         }
 
-        public Task<Настройки> GetById(int id)
+        public async Task<Настройки> GetById(int id)
         {
-            var settings = _repositoryWrapper.Settings
-                .FindByCondition(x => x.Idнастроек == id).First();
-            return Task.FromResult(settings);
+            var settings = await _repositoryWrapper.Settings
+                .FindByCondition(x => x.Idнастроек == id);
+            return settings.First();
         }
 
-        public Task Create(Настройки model)
+        public async Task Create(Настройки model)
         {
-            _repositoryWrapper.Settings.Create(model);
+            await _repositoryWrapper.Settings.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(Настройки model)
+        public async Task Update(Настройки model)
         {
-            _repositoryWrapper.Settings.Update(model);
+            await _repositoryWrapper.Settings.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var settings = _repositoryWrapper.Settings
-                .FindByCondition(x => x.Idнастроек == id).First();
+            var settings = await _repositoryWrapper.Settings
+                .FindByCondition(x => x.Idнастроек == id);
 
-            _repositoryWrapper.Settings.Delete(settings);
+            await _repositoryWrapper.Settings.Delete(settings.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

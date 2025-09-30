@@ -1,6 +1,5 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Interfaces;
-using DataAccess.Models;
+﻿using Domain.Interfaces;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BackendApi.Controllers

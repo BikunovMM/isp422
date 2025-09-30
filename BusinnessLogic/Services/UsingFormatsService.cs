@@ -1,6 +1,6 @@
-﻿using BusinnessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Wrapper;
+﻿using Domain.Interfaces;
+using Domain.Models;
+using Domain.Wrapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
@@ -13,40 +13,37 @@ namespace BusinessLogic.Services
         {
             _repositoryWrapper = repositoryWrapper;
         }
-        public Task<List<ИспользованиеФорматов>> GetAll()
+        public async Task<List<ИспользованиеФорматов>> GetAll()
         {
-            return _repositoryWrapper.UsingFormats.FindAll().ToListAsync();
+            return await _repositoryWrapper.UsingFormats.FindAll();
         }
 
-        public Task<ИспользованиеФорматов> GetById(int id)
+        public async Task<ИспользованиеФорматов> GetById(int id)
         {
-            var role = _repositoryWrapper.UsingFormats
-                .FindByCondition(x => x.IdиспользованияФорматов == id).First();
-            return Task.FromResult(role);
+            var role = await _repositoryWrapper.UsingFormats
+                .FindByCondition(x => x.IdиспользованияФорматов == id);
+            return role.First();
         }
 
-        public Task Create(ИспользованиеФорматов model)
+        public async Task Create(ИспользованиеФорматов model)
         {
-            _repositoryWrapper.UsingFormats.Create(model);
+            await _repositoryWrapper.UsingFormats.Create(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Update(ИспользованиеФорматов model)
+        public async Task Update(ИспользованиеФорматов model)
         {
-            _repositoryWrapper.UsingFormats.Update(model);
+            await _repositoryWrapper.UsingFormats.Update(model);
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            var fileFormat = _repositoryWrapper.UsingFormats
-                .FindByCondition(x => x.IdиспользованияФорматов == id).First();
+            var fileFormat = await _repositoryWrapper.UsingFormats
+                .FindByCondition(x => x.IdиспользованияФорматов == id);
 
-            _repositoryWrapper.UsingFormats.Delete(fileFormat);
+            _repositoryWrapper.UsingFormats.Delete(fileFormat.First());
             _repositoryWrapper.Save();
-            return Task.CompletedTask;
         }
     }
 }

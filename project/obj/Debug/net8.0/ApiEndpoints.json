@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "convertationParameter",
-        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "convertationParameter",
-        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -93,7 +93,7 @@
     "Parameters": [
       {
         "Name": "convertationParameters",
-        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -109,7 +109,7 @@
     "Parameters": [
       {
         "Name": "convertationParameters",
-        "Type": "DataAccess.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -167,7 +167,7 @@
     "Parameters": [
       {
         "Name": "convertation",
-        "Type": "DataAccess.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -183,7 +183,7 @@
     "Parameters": [
       {
         "Name": "convertation",
-        "Type": "DataAccess.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
+        "Type": "Domain.Models.\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438",
         "IsRequired": true
       }
     ],
@@ -241,7 +241,7 @@
     "Parameters": [
       {
         "Name": "convertationHistory",
-        "Type": "DataAccess.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
+        "Type": "Domain.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
         "IsRequired": true
       }
     ],
@@ -257,7 +257,7 @@
     "Parameters": [
       {
         "Name": "convertationHistory",
-        "Type": "DataAccess.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
+        "Type": "Domain.Models.\u0418\u0441\u0442\u043E\u0440\u0438\u044F\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0439",
         "IsRequired": true
       }
     ],
@@ -315,7 +315,7 @@
     "Parameters": [
       {
         "Name": "fileFormat",
-        "Type": "DataAccess.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
+        "Type": "Domain.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
         "IsRequired": true
       }
     ],
@@ -331,7 +331,7 @@
     "Parameters": [
       {
         "Name": "fileFormat",
-        "Type": "DataAccess.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
+        "Type": "Domain.Models.\u0424\u043E\u0440\u043C\u0430\u0442\u044B\u0424\u0430\u0439\u043B\u043E\u0432",
         "IsRequired": true
       }
     ],
@@ -389,7 +389,7 @@
     "Parameters": [
       {
         "Name": "file",
-        "Type": "DataAccess.Models.\u0424\u0430\u0439\u043B\u044B",
+        "Type": "Domain.Models.\u0424\u0430\u0439\u043B\u044B",
         "IsRequired": true
       }
     ],
@@ -405,7 +405,7 @@
     "Parameters": [
       {
         "Name": "file",
-        "Type": "DataAccess.Models.\u0424\u0430\u0439\u043B\u044B",
+        "Type": "Domain.Models.\u0424\u0430\u0439\u043B\u044B",
         "IsRequired": true
       }
     ],
@@ -463,7 +463,7 @@
     "Parameters": [
       {
         "Name": "role",
-        "Type": "DataAccess.Models.\u0420\u043E\u043B\u0438",
+        "Type": "Domain.Models.\u0420\u043E\u043B\u0438",
         "IsRequired": true
       }
     ],
@@ -479,7 +479,7 @@
     "Parameters": [
       {
         "Name": "role",
-        "Type": "DataAccess.Models.\u0420\u043E\u043B\u0438",
+        "Type": "Domain.Models.\u0420\u043E\u043B\u0438",
         "IsRequired": true
       }
     ],
@@ -537,7 +537,7 @@
     "Parameters": [
       {
         "Name": "settings",
-        "Type": "DataAccess.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
+        "Type": "Domain.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
         "IsRequired": true
       }
     ],
@@ -553,7 +553,7 @@
     "Parameters": [
       {
         "Name": "role",
-        "Type": "DataAccess.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
+        "Type": "Domain.Models.\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438",
         "IsRequired": true
       }
     ],
@@ -611,7 +611,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "DataAccess.Models.\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438",
+        "Type": "Domain.Models.\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438",
         "IsRequired": true
       }
     ],
@@ -627,7 +627,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "DataAccess.Models.\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438",
+        "Type": "Domain.Models.\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438",
         "IsRequired": true
       }
     ],
@@ -685,7 +685,7 @@
     "Parameters": [
       {
         "Name": "usingFormat",
-        "Type": "DataAccess.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
+        "Type": "Domain.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
         "IsRequired": true
       }
     ],
@@ -701,7 +701,7 @@
     "Parameters": [
       {
         "Name": "usingFormat",
-        "Type": "DataAccess.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
+        "Type": "Domain.Models.\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\u0424\u043E\u0440\u043C\u0430\u0442\u043E\u0432",
         "IsRequired": true
       }
     ],
