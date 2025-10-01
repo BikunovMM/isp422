@@ -4,13 +4,20 @@ using Domain.Models;
 using Domain.Wrapper;
 using DataAccess.Wrapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<DbIsp422Context>(
     options => options.UseSqlServer(
-        "Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;"));
+        "Server= DESKTOP-K6LFJKO ;Database= db_isp422_eshkere ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;"
+        /*
+        "Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;",
+        b => b.MigrationsAssembly("DataAccess")
+        */
+        ));
 
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 builder.Services.AddScoped<IUserService, UserService>();

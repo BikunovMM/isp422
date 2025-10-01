@@ -15,6 +15,11 @@ public partial class DbIsp422Context : DbContext
     {
     }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer("Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;");
+    }
+
     public virtual DbSet<View1> View1s { get; set; }
 
     public virtual DbSet<View4ПорядковыйНомерМинус1> View4ПорядковыйНомерМинус1s { get; set; }
@@ -46,10 +51,6 @@ public partial class DbIsp422Context : DbContext
     public virtual DbSet<ФорматыФайлов> ФорматыФайловs { get; set; }
 
     public virtual DbSet<ЧастотаКонвертаций> ЧастотаКонвертацийs { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ; TrustServerCertificate= True ;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
