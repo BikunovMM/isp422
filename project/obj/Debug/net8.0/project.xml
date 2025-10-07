@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>project</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.UserController.Add(Domain.Models.Пользователи)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                    "login" : "A4Tech Bloody B188",
+                    "password" : "!Pa$$word123@",
+                    "firstname" : "Иван",
+                    "lastname" : "Иванов",
+                    "middlename" : "Иванович"
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>
