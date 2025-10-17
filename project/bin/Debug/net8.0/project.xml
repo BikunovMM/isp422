@@ -4,7 +4,7 @@
         <name>project</name>
     </assembly>
     <members>
-        <member name="M:BackendApi.Controllers.UserController.Add(Domain.Models.Пользователи)">
+        <member name="M:BackendApi.Controllers.UserController.Add(project.Contracts.User.CreateUserRequest)">
              <summary>
              Создание нового пользователя
              </summary>
@@ -13,16 +13,18 @@
             
                  POST /Todo
                  {
-                    "login" : "A4Tech Bloody B188",
-                    "password" : "!Pa$$word123@",
-                    "firstname" : "Иван",
-                    "lastname" : "Иванов",
-                    "middlename" : "Иванович"
+                    "idпользователя" : "0",
+                    "idроли" : "0",
+                    "логин" : "lol_kek",
+                    "пароль" : "12345",
+                    "адресэлектроннойпочты" : "lol_kek@mail.ru",
+                    "датарегистрации" : "01.01.2007"
                  }
             
              </remarks>
              <param name="model">Пользователь</param>
              <returns></returns>
+             
         </member>
     </members>
 </doc>

@@ -14,11 +14,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<DbIsp422Context>(
     options => options.UseSqlServer(
-        "Server= DESKTOP-K6LFJKO ;Database= db_isp422_eshkere ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;"
-        /*
-        "Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= Sa ;Password= 12345 ;TrustServerCertificate= True ;",
+        //"Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= sa ;Password= 12345 ;TrustServerCertificate= True ;"
+        
+        "Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= sa ;Password= 12345 ;TrustServerCertificate= True ;",
         b => b.MigrationsAssembly("DataAccess")
-        */
         ));
 
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();

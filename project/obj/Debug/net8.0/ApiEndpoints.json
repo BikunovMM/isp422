@@ -610,8 +610,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Domain.Models.\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438",
+        "Name": "request",
+        "Type": "project.Contracts.User.CreateUserRequest",
         "IsRequired": true
       }
     ],

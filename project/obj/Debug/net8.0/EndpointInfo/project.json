@@ -934,22 +934,22 @@
           "User"
         ],
         "summary": "Создание нового пользователя",
-        "description": "Пример запроса:\r\n            \r\n    POST /Todo\r\n    {\r\n       \"login\" : \"A4Tech Bloody B188\",\r\n       \"password\" : \"!Pa$$word123@\",\r\n       \"firstname\" : \"Иван\",\r\n       \"lastname\" : \"Иванов\",\r\n       \"middlename\" : \"Иванович\"\r\n    }",
+        "description": "Пример запроса:\r\n            \r\n    POST /Todo\r\n    {\r\n       \"idпользователя\" : \"0\",\r\n       \"idроли\" : \"0\",\r\n       \"логин\" : \"lol_kek\",\r\n       \"пароль\" : \"12345\",\r\n       \"адресэлектроннойпочты\" : \"lol_kek@mail.ru\",\r\n       \"датарегистрации\" : \"01.01.2007\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Пользователи"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Пользователи"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Пользователи"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             }
           }
@@ -1254,6 +1254,32 @@
   },
   "components": {
     "schemas": {
+      "CreateUserRequest": {
+        "type": "object",
+        "properties": {
+          "idРоли": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "адресЭлектроннойПочты": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаРождения": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "ИспользованиеФорматов": {
         "type": "object",
         "properties": {
