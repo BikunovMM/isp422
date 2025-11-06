@@ -18,7 +18,8 @@ builder.Services.AddDbContext<DbIsp422Context>(
         
         "Server= DESKTOP-K6LFJKO ;Database= db_isp422 ;User Id= sa ;Password= 12345 ;TrustServerCertificate= True ;",
         b => b.MigrationsAssembly("DataAccess")
-        ));
+    )
+);
 
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 builder.Services.AddScoped<IUserService, UserService>();

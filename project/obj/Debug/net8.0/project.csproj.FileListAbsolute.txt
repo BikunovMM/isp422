@@ -583,3 +583,7 @@ C:\Users\Student\Desktop\07_10_2025\isp422\project\obj\Debug\net8.0\project.genr
 C:\Users\Student\Desktop\07_10_2025\isp422\project\obj\Debug\net8.0\ref\project.dll
 C:\Users\Student\Desktop\07_10_2025\isp422\project\bin\Debug\net8.0\project.xml
 C:\Users\Student\Desktop\07_10_2025\isp422\project\obj\Debug\net8.0\project.xml
+C:\Users\m9337\Desktop\isp422\isp422\project\bin\Debug\net8.0\project.xml
+C:\Users\m9337\Desktop\isp422\isp422\project\bin\Debug\net8.0\Mapster.dll
+C:\Users\m9337\Desktop\isp422\isp422\project\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\m9337\Desktop\isp422\isp422\project\obj\Debug\net8.0\project.xml

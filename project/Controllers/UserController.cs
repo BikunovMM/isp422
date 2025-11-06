@@ -1,7 +1,7 @@
 ﻿using Domain.Interfaces;
 using Domain.Models;
-using Mapster;
 using Microsoft.AspNetCore.Mvc;
+using Mapster;
 using project.Contracts.User;
 
 namespace BackendApi.Controllers
@@ -11,23 +11,7 @@ namespace BackendApi.Controllers
     public class UserController : ControllerBase
     {
         private IUserService _userService;
-        /// <summary>
-        /// Кнонструктор контроллера. Сохраняет аргумент в приватное поле _user_service *-*
-        /// </summary>
-        /// <remarks>
-        /// Пример запроса:        
-        ///     POST /Todo
-        ///     {
-        ///        "IDПользователя" : "0",
-        ///        "IDРоли" : "0",
-        ///        "Логин" : "lol_kek",
-        ///        "Пароль" : "12345",
-        ///        "АдресЭлектроннойПочты" : "lol_kek@mail.ru",
-        ///        "ДатаРегистрации" : "01.01.2007"
-        ///     }      
-        /// </remarks>
-        /// <param name="model">Пользователи</param>
-        /// <returns>
+
         public UserController(IUserService userService)
         {
             _userService = userService;
@@ -37,19 +21,17 @@ namespace BackendApi.Controllers
         /// Получение всех пользователей
         /// </summary>
         /// <remarks>
-        /// </remarks>
-        /// <param name="model">Пользователи</param>
-        /// <returns>
+        /// Приер запроса:
+        /// 
         ///     GET
         ///     {
-        ///        "IDПользователя" : "0",
-        ///        "IDРоли" : "0",
-        ///        "Логин" : "lol_kek",
-        ///        "Пароль" : "12345",
-        ///        "АдресЭлектроннойПочты" : "lol_kek@mail.ru",
-        ///        "ДатаРегистрации" : "01.01.2007"
+        ///        
         ///     }
-        /// </returns>
+        /// 
+        /// </remarks>
+        /// <returns></returns>
+
+        // GET api/<UsersController>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -60,26 +42,18 @@ namespace BackendApi.Controllers
         /// Получение пользователя по id
         /// </summary>
         /// <remarks>
-        /// Пример запроса:
-        ///
-        ///     POST /Todo
-        ///     {
-        ///        "IDПользователя": "8459759479345798437593475437534594"
-        ///     }
-        ///
-        /// </remarks>
-        /// <param name="model">Пользователи</param>
-        /// <returns>
+        /// Приер запроса:
+        /// 
         ///     GET
         ///     {
-        ///        "IDПользователя" : "0",
-        ///        "IDРоли" : "0",
-        ///        "Логин" : "lol_kek",
-        ///        "Пароль" : "12345",
-        ///        "АдресЭлектроннойПочты" : "lol_kek@mail.ru",
-        ///        "ДатаРегистрации" : "01.01.2007"
+        ///        "IDПользователя" : "0"
         ///     }
-        /// </returns>
+        /// 
+        /// </remarks>
+        /// <param name="id">id Пользователя</param>
+        /// <returns></returns>
+
+        // GET api/<UsersController>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -110,9 +84,10 @@ namespace BackendApi.Controllers
         ///     }
         ///
         /// </remarks>
-        /// <param name="model">Пользователи</param>
-        /// <returns>
-        /// </returns>
+        /// <param name="request">Пользователь</param>
+        /// <returns></returns>
+
+        // POST api/<UsersController>
         [HttpPost]
         public async Task<IActionResult> Add(CreateUserRequest request)
         {
@@ -126,7 +101,7 @@ namespace BackendApi.Controllers
         /// </summary>
         /// <remarks>
         /// Пример запроса:        
-        ///     POST /Todo
+        ///     PUT /Todo
         ///     {
         ///        "IDПользователя" : "0",
         ///        "IDРоли" : "0",
@@ -136,13 +111,16 @@ namespace BackendApi.Controllers
         ///        "ДатаРегистрации" : "01.01.2007"
         ///     }      
         /// </remarks>
-        /// <param name="model">Пользователи</param>
+        /// <param name="user">Пользователь</param>
         /// <returns>
         /// </returns>      
+
+        // PUT api/<UsersController>
         [HttpPut]
-        public async Task<IActionResult> Update(Пользователи user)
+        public async Task<IActionResult> Update(CreateUserRequest user)
         {
-            await _userService.Update(user);
+            var userDto = user.Adapt<Пользователи>();
+            await _userService.Update(userDto);
             return Ok();
         }
 
@@ -151,18 +129,15 @@ namespace BackendApi.Controllers
         /// </summary>
         /// <remarks>
         /// Пример запроса:        
-        ///     POST /Todo
+        ///     DELETE
         ///     {
-        ///        "IDПользователя" : "0",
-        ///        "IDРоли" : "0",
-        ///        "Логин" : "lol_kek",
-        ///        "Пароль" : "12345",
-        ///        "АдресЭлектроннойПочты" : "lol_kek@mail.ru",
-        ///        "ДатаРегистрации" : "01.01.2007"
+        ///        "id" : "0"
         ///     }      
         /// </remarks>
-        /// <param name="model">Пользователи</param>
-        /// <returns>        
+        /// <param name="id">id Пользователя</param>
+        /// <returns></returns>        
+
+        // DELETE api/<UsersController>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

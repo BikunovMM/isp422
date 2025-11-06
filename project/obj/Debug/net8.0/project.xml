@@ -4,6 +4,619 @@
         <name>project</name>
     </assembly>
     <members>
+        <member name="M:BackendApi.Controllers.ConvertationParameterController.GetAll">
+            <summary>
+            Получение всех ПараметровКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParameterController.GetById(System.Int32)">
+            <summary>
+            Получение ПараметраКонвертации по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "IdпараметраКонвертации" : "0"
+                }      
+            </remarks>
+            <param name="id">id ПараметраКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParameterController.Add(Domain.Models.ПараметрКонвертации)">
+            <summary>
+            Создание нового ПараметраКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "IdпараметраКонвертации" : "0",
+                   "Название" : "ВидеоКодек"
+                }      
+            </remarks>
+            <param name="convertationParameter">ПараметрКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParameterController.Update(Domain.Models.ПараметрКонвертации)">
+            <summary>
+            Обновление ПараметраКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "IdпараметраКонвертации" : "0",
+                   "Название" : "ВидеоКодек"
+                }      
+            </remarks>
+            <param name="convertationParameter">ПараметрКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParameterController.Delete(System.Int32)">
+            <summary>
+            Удаление ПараметраКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id ПараметраКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParametersController.GetAll">
+            <summary>
+            Получение всех ПараметровКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {                
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParametersController.GetById(System.Int32)">
+            <summary>
+            Получение ПараметровКонвертации по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {                
+                   "IdпараметраКонвертации" : "0"
+                }      
+            </remarks>
+            <param name="id">id ПараметровКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParametersController.Add(project.Contracts.ConvertationParameters.CreateConvertationParametersRequest)">
+            <summary>
+            Создание ПараметровКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {                
+                   "IdпараметраКонвертации" : "0",
+                   "Значение" : "0",
+                }      
+            </remarks>
+            <param name="convertationParameters">ПараметрыКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParametersController.Update(Domain.Models.ПараметрыКонвертации)">
+            <summary>
+            Изменение ПараметровКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {                
+                   "IdпараметраКонвертации" : "0",
+                   "Значение" : "0",
+                }      
+            </remarks>
+            <param name="convertationParameters">ПараметрыКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationParametersController.Delete(System.Int32)">
+            <summary>
+            Удаление ПараметровКонвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id ПараметровКонвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsController.GetAll">
+            <summary>
+            Получение всех Конвертаций
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsController.GetById(System.Int32)">
+            <summary>
+            Получение Конвертации по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "Idконвертации" : "0"
+                }      
+            </remarks>
+            <param name="id">id Конвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsController.Add(project.Contracts.Convertations.CreateConvertationsRequest)">
+            <summary>
+            Создание новой Конвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "Idконвертации" : "0",
+                   "IdвходногоФайла" : "0",
+                   "IdвыходногоФайла" : "0",
+                   "IdпараметровКонвертации" : "0",
+                   "ДатаКонвертации" : "01-02-2007",
+                }      
+            </remarks>
+            <param name="convertation">Конвертация</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsController.Update(Domain.Models.Конвертации)">
+            <summary>
+            Обновление Конвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "Idконвертации" : "0",
+                   "IdвходногоФайла" : "0",
+                   "IdвыходногоФайла" : "0",
+                   "IdпараметровКонвертации" : "0",
+                   "ДатаКонвертации" : "01-02-2007",
+                }      
+            </remarks>
+            <param name="convertation">Конвертация</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsController.Delete(System.Int32)">
+            <summary>
+            Удаление Конвертации
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Конвертации</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsHistoryController.GetAll">
+            <summary>
+            Получение всех ИсторийКонвертаций
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsHistoryController.GetById(System.Int32)">
+            <summary>
+            Получение ИсторииКонвертаций по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "IdисторииКонвертаций" : "0"
+                }      
+            </remarks>
+            <param name="id">id ИсторииКонвертаций</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsHistoryController.Add(project.Contracts.ConvertationsHistory.CreateConvertationsHistoryRequest)">
+            <summary>
+            Создание ИсторииКонвертаций
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "IdисторииКонвертаций" : "0",
+                   "Idпользователя" : "0",
+                   "Idконвертации" : "0",
+                   "IdПараметровКонвертации" : "0"
+                }      
+            </remarks>
+            <param name="convertationHistory">ИсторияКонвертаций</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsHistoryController.Update(Domain.Models.ИсторияКонвертаций)">
+            <summary>
+            Обнавление ИсторииКонвертаций
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "IdисторииКонвертаций" : "0",
+                   "Idпользователя" : "0",
+                   "Idконвертации" : "0",
+                   "IdПараметровКонвертации" : "0"
+                }      
+            </remarks>
+            <param name="convertationHistory">ИсторияКонвертаций</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.ConvertationsHistoryController.Delete(System.Int32)">
+            <summary>
+            Удаление ИсторииКонвертаций
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id ИсторииКонвертаций</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FileFormatsController.GetAll">
+            <summary>
+            Получение всех ФорматовФайлов
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FileFormatsController.GetById(System.Int32)">
+            <summary>
+            Получение ФорматаФайла по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "Idформата" : "0"
+                }      
+            </remarks>
+            <param name="id">id ФорматаФайлов</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FileFormatsController.Add(project.Contracts.FileFormats.CreateFileFormatsRequest)">
+            <summary>
+            Создание нового ФорматаФайла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "Idформата" : "0",
+                   "Название" : "png"
+                }      
+            </remarks>
+            <param name="fileFormat">ФорматФайлов</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FileFormatsController.Update(project.Contracts.FileFormats.CreateFileFormatsRequest)">
+            <summary>
+            Обновление ФорматаФайла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "Idформата" : "0",
+                   "Название" : "png"
+                }      
+            </remarks>
+            <param name="fileFormat">ФорматФайлов</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FileFormatsController.Delete(System.Int32)">
+            <summary>
+            Удаление ФорматаФайла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id ФорматаФайла</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FilesController.GetAll">
+            <summary>
+            Получение всех Файлов
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FilesController.GetById(System.Int32)">
+            <summary>
+            Получение Файла по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Файла</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FilesController.Add(project.Contracts.Files.GetFilesResponse)">
+            <summary>
+            Создание нового Файла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "id" : "0",
+                   "Название" : "img00_eshkere422.png"
+                }      
+            </remarks>
+            <param name="file">Файл</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FilesController.Update(project.Contracts.Files.CreateFilesRequest)">
+            <summary>
+            Обнавление Файла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "id" : "0",
+                   "Название" : "img00_eshkere422.png"
+                }      
+            </remarks>
+            <param name="file">Файл</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.FilesController.Delete(System.Int32)">
+            <summary>
+            Удаление Файла
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Файла</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.GetAll">
+            <summary>
+            Получение всех Ролей
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.GetById(System.Int32)">
+            <summary>
+            Получение Роли по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Роли</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Add(project.Contracts.Role.CreateRoleRequest)">
+            <summary>
+            Создание новой Роли
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "id" : "0",
+                   "Название" : "РайнГослинг"
+                }      
+            </remarks>
+            <param name="role">Роль</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Update(Domain.Models.Роли)">
+            <summary>
+            Обнавление Роли
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "id" : "0",
+                   "Название" : "РайнГослинг"
+                }      
+            </remarks>
+            <param name="role">Роль</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Delete(System.Int32)">
+            <summary>
+            Удаление Роли
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Роли</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.SettingsController.GetAll">
+            <summary>
+            Получение всех Настроек
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   
+                }      
+            </remarks>
+            <returns></returns>    
+        </member>
+        <member name="M:BackendApi.Controllers.SettingsController.GetById(System.Int32)">
+            <summary>
+            Получение Настроек по id
+            </summary>
+            <remarks>
+            Пример запроса:        
+                GET /Todo
+                {
+                   "IdНастроек" : "0"
+                }      
+            </remarks>
+            <param name="id">id Настроек</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.SettingsController.Add(project.Contracts.Settings.CreateSettingsRequest)">
+            <summary>
+            Создание новых Настроек
+            </summary>
+            <remarks>
+            Пример запроса:        
+                POST /Todo
+                {
+                   "IdНастроек" : "0",
+                   "IdПользователя" : "0",
+                   "Язык" : "Русский",
+                   "Уведомления" : "FALSE"
+                }      
+            </remarks>
+            <param name="settings">Настройки</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.SettingsController.Update(project.Contracts.Settings.CreateSettingsRequest)">
+            <summary>
+            Обновление данных Настроек
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "IdНастроек" : "0",
+                   "IdПользователя" : "0",
+                   "Язык" : "Русский",
+                   "Уведомления" : "FALSE"
+                }      
+            </remarks>
+            <param name="settings">Настройки</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.SettingsController.Delete(System.Int32)">
+            <summary>
+            Удаление Настроек
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Настроек</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+            <summary>
+            Получение всех пользователей
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                GET
+                {
+                   
+                }
+            
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Получение пользователя по id
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                GET
+                {
+                   "IDПользователя" : "0"
+                }
+            
+            </remarks>
+            <param name="id">id Пользователя</param>
+            <returns></returns>
+        </member>
         <member name="M:BackendApi.Controllers.UserController.Add(project.Contracts.User.CreateUserRequest)">
              <summary>
              Создание нового пользователя
@@ -13,18 +626,135 @@
             
                  POST /Todo
                  {
-                    "idпользователя" : "0",
-                    "idроли" : "0",
-                    "логин" : "lol_kek",
-                    "пароль" : "12345",
-                    "адресэлектроннойпочты" : "lol_kek@mail.ru",
-                    "датарегистрации" : "01.01.2007"
+                    "Логин" : "lol_kek",
+                    "Пароль" : "12345",
+                    "АдресЭлектроннойПочты" : "lol_kek@mail.ru"
                  }
             
              </remarks>
-             <param name="model">Пользователь</param>
+             <param name="request">Пользователь</param>
              <returns></returns>
-             
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(project.Contracts.User.CreateUserRequest)">
+            <summary>
+            Обновление данных пользователя
+            </summary>
+            <remarks>
+            Пример запроса:        
+                PUT /Todo
+                {
+                   "IDПользователя" : "0",
+                   "IDРоли" : "0",
+                   "Логин" : "lol_kek",
+                   "Пароль" : "12345",
+                   "АдресЭлектроннойПочты" : "lol_kek@mail.ru",
+                   "ДатаРегистрации" : "01.01.2007"
+                }      
+            </remarks>
+            <param name="user">Пользователь</param>
+            <returns>
+            </returns>      
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя
+            </summary>
+            <remarks>
+            Пример запроса:        
+                DELETE
+                {
+                   "id" : "0"
+                }      
+            </remarks>
+            <param name="id">id Пользователя</param>
+            <returns></returns>        
+        </member>
+        <member name="M:BackendApi.Controllers.UsingFormatsController.GetAll">
+            <summary>
+            Получение всех ИспользованныхФорматов
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                GET
+                {
+                   
+                }
+            
+            </remarks>
+            <param name="model">ИспользованиеФорматов</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UsingFormatsController.GetById(System.Int32)">
+            <summary>
+            Получение ИспользованныхФорматов по id
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                GET
+                {
+                   "IdИспользованияФорматов" : "0"
+                }
+            
+            </remarks>
+            <param name="model">ИспользованиеФорматов</param>
+            <param name="id">id ИспользованияФорматов</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UsingFormatsController.Add(project.Contracts.UsingFormats.CreateUsingFormatsRequest)">
+            <summary>
+            Создание нового ИспользованияФорматов
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                POST
+                {
+                   "IdИспользованияФорматов" : "0",
+                   "IdПользователя" : "0",
+                   "IdФормата" : "0",
+                   "КоличествоИспользований" : "228"
+                }
+            
+            </remarks>
+            <param name="usingFormat">ИспользованиеФорматов</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UsingFormatsController.Update(project.Contracts.UsingFormats.CreateUsingFormatsRequest)">
+            <summary>
+            Обновление данных ИспользованияФорматов
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                UPDATE
+                {
+                   "IdИспользованияФорматов" : "0",
+                   "IdПользователя" : "0",
+                   "IdФормата" : "0",
+                   "КоличествоИспользований" : "228"
+                }
+            
+            </remarks>
+            <param name="usingFormat">ИспользованиеФормата</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UsingFormatsController.Delete(System.Int32)">
+            <summary>
+            Удаление ИспользованияФорматов
+            </summary>
+            <remarks>
+            Приер запроса:
+            
+                DELETE
+                {
+                   "id" : "0"
+                }
+            
+            </remarks>
+            <param name="id">id ИспользованияФормата</param>
+            <returns></returns>
         </member>
     </members>
 </doc>
