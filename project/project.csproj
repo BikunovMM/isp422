@@ -25,5 +25,8 @@
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\m9337\Desktop\isp422\isp422\project\.editorconfig" />
+	</ItemGroup>
 
 </Project>
