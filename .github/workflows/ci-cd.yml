@@ -1,26 +1,47 @@
-name: dotnet format
+name: CI/CD Pipeline
 
 on:
   push:
-    paths:
-      - "**.cs"
-      - ".editorconfig"
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
 
 jobs:
-  check-format:
-    runs-on: windows-latest
-
+  build:
+    runs-on: ubuntu-latest
+    
     steps:
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
-
-      - name: Install dotnet-format tool
-        run: dotnet tool install -g dotnet-format
-
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Run dotnet format
-        run: dotnet-format --folder --check --verbosity diagnostic
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+      
+    - name: Run tests
+      run: dotnet test --no-build --verbosity normal
+      
+  code-formatting:
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Check code formatting
+      run: |
+        dotnet format --verify-no-changes --verbosity detailed
+      continue-on-error: false
