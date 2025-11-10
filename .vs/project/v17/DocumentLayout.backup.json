@@ -3,8 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|C:\\Users\\m9337\\Desktop\\isp422\\isp422\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
-      "RelativeMoniker": "D:0:0:{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+      "AbsoluteMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businesslogic.tests\\fileformatsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\fileformatsservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businesslogic.tests\\convertationparametertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\convertationparametertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businesslogic.tests\\convertationparameterstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\convertationparameterstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\contracts\\convertations\\getconvertationsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\contracts\\convertations\\getconvertationsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|Domain\\Domain.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\domain\\models\\\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|Domain\\Domain.csproj|solutionrelative:domain\\models\\\u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|Domain\\Domain.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\domain\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|Domain\\Domain.csproj|solutionrelative:domain\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businesslogic.tests\\convertationstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\convertationstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478F65DF-002B-476E-971D-903F23675E04}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\controllers\\convertationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\project\\contracts\\convertations\\createconvertationsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CF5C1F-A3EA-4DD8-B840-E15D400BBA97}|project\\project.csproj|solutionrelative:project\\contracts\\convertations\\createconvertationsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\convertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\convertationparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\convertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\convertationparametersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\convertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\convertationshistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\convertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\convertationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\fileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\fileformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|c:\\users\\m9337\\desktop\\isp422\\isp422\\businnesslogic\\services\\usingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D50A3F-63AD-D091-7285-8C51F8227492}|BusinnessLogic\\BusinnessLogic.csproj|solutionrelative:businnesslogic\\services\\usingformatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,13 +123,300 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".editorconfig",
-              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\.editorconfig",
-              "RelativeDocumentMoniker": ".editorconfig",
-              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\.editorconfig",
-              "RelativeToolTip": ".editorconfig",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-09T09:47:39.421Z",
+              "Title": "FileFormatsServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\FileFormatsServiceTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\FileFormatsServiceTest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\FileFormatsServiceTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\FileFormatsServiceTest.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:16:05.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConvertationParameterTest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationParameterTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\ConvertationParameterTest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationParameterTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\ConvertationParameterTest.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:13:55.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConvertationParametersTest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationParametersTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\ConvertationParametersTest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationParametersTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\ConvertationParametersTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:13:51.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeToolTip": "Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:53.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "RelativeToolTip": "Domain\\Models\\\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u0438.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:46.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "project\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Controllers\\UserController.cs",
+              "RelativeToolTip": "project\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:27.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "project\\Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "project\\Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:22.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetConvertationsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\Convertations\\GetConvertationsResponse.cs",
+              "RelativeDocumentMoniker": "project\\Contracts\\Convertations\\GetConvertationsResponse.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\Convertations\\GetConvertationsResponse.cs",
+              "RelativeToolTip": "project\\Contracts\\Convertations\\GetConvertationsResponse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA7wAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:16.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "project\\Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "project\\Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:11.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConvertationsTest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationsTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\ConvertationsTest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\ConvertationsTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\ConvertationsTest.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:05:08.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConvertationsController.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Controllers\\ConvertationsController.cs",
+              "RelativeDocumentMoniker": "project\\Controllers\\ConvertationsController.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Controllers\\ConvertationsController.cs",
+              "RelativeToolTip": "project\\Controllers\\ConvertationsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAlwEAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:05:01.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\UserServiceTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\UserServiceTest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinessLogic.Tests\\UserServiceTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\UserServiceTest.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAlwEwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:53:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateConvertationsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\Convertations\\CreateConvertationsRequest.cs",
+              "RelativeDocumentMoniker": "project\\Contracts\\Convertations\\CreateConvertationsRequest.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\project\\Contracts\\Convertations\\CreateConvertationsRequest.cs",
+              "RelativeToolTip": "project\\Contracts\\Convertations\\CreateConvertationsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:06:00.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConvertationParameterService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\ConvertationParameterService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:45:26.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConvertationParametersService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\ConvertationParametersService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:45:05.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:40:03.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConvertationsHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\ConvertationsHistoryService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:44:48.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConvertationsService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\ConvertationsService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\ConvertationsService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\ConvertationsService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:44:06.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\FileFormatsService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\FileFormatsService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\FileFormatsService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:43:43.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FilesService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\FilesService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\FilesService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\FilesService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\FilesService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:43:17.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\RoleService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\RoleService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:42:46.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\SettingsService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\SettingsService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:42:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsingFormatsService.cs",
+              "DocumentMoniker": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "RelativeDocumentMoniker": "BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "ToolTip": "C:\\Users\\m9337\\Desktop\\isp422\\isp422\\BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "RelativeToolTip": "BusinnessLogic\\Services\\UsingFormatsService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:40:14.755Z",
               "EditorCaption": ""
             }
           ]

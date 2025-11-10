@@ -27,14 +27,23 @@ namespace BusinessLogic.Services
 
         public async Task Create(ФорматыФайлов model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.Название))
+            {
+                throw new ArgumentNullException(nameof(model.Название));
+            }
+
             await _repositoryWrapper.FileFormats.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(ФорматыФайлов model)
         {
             await _repositoryWrapper.FileFormats.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -42,8 +51,8 @@ namespace BusinessLogic.Services
             var fileFormat = await _repositoryWrapper.FileFormats
                 .FindByCondition(x => x.Idформата == id);
 
-            _repositoryWrapper.FileFormats.Delete(fileFormat.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.FileFormats.Delete(fileFormat.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

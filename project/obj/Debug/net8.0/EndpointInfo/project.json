@@ -1564,7 +1564,7 @@
           },
           "датаКонвертации": {
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "idвходногоФайлаNavigation": {
             "$ref": "#/components/schemas/Файлы"
@@ -1660,7 +1660,7 @@
           },
           "датаРегистрации": {
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "idролиNavigation": {
             "$ref": "#/components/schemas/Роли"

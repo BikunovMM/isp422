@@ -65,7 +65,7 @@ namespace BackendApi.Controllers
                 Логин = result.Логин,
                 Пароль = result.Пароль,
                 АдресЭлектроннойПочты = result.АдресЭлектроннойПочты!,
-                ДатаРегистрации = DateTime.Now
+                ДатаРегистрации = DateOnly.FromDateTime(DateTime.Today)
             };
             return Ok(response);
         }

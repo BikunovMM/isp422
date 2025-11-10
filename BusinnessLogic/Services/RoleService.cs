@@ -28,14 +28,23 @@ namespace BusinessLogic.Services
 
         public async Task Create(Роли model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.Название))
+            {
+                throw new ArgumentNullException(nameof(model.Название));
+            }
+
             await _repositoryWrapper.Role.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(Роли model)
         {
             await _repositoryWrapper.Role.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -43,8 +52,8 @@ namespace BusinessLogic.Services
             var role = await _repositoryWrapper.Role
                 .FindByCondition(x => x.Idроли == id);
 
-            _repositoryWrapper.Role.Delete(role.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Role.Delete(role.First());
+            await _repositoryWrapper.Save();
         }
     }
 }

@@ -7,6 +7,6 @@
         public string Логин { get; set; } = null!;
         public string Пароль { get; set; } = null!;
         public string АдресЭлектроннойПочты { get; set; } = null!;
-        public DateTime ДатаРегистрации { get; set; }
+        public DateOnly ДатаРегистрации { get; set; }
 }
 }

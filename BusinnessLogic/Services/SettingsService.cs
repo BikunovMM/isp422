@@ -28,14 +28,23 @@ namespace BusinessLogic.Services
 
         public async Task Create(Настройки model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.Язык))
+            {
+                throw new ArgumentNullException(nameof(model.Язык));
+            }
+
             await _repositoryWrapper.Settings.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(Настройки model)
         {
             await _repositoryWrapper.Settings.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -44,7 +53,7 @@ namespace BusinessLogic.Services
                 .FindByCondition(x => x.Idнастроек == id);
 
             await _repositoryWrapper.Settings.Delete(settings.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
     }
 }

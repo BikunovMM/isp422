@@ -27,14 +27,23 @@ namespace BusinessLogic.Services
 
         public async Task Create(ПараметрКонвертации model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            if (string.IsNullOrEmpty(model.Название))
+            {
+                throw new ArgumentNullException(nameof(model.Название));
+            }
+
             await _repositoryWrapper.ConvertationParameter.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Update(ПараметрКонвертации model)
         {
             await _repositoryWrapper.ConvertationParameter.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Save();
         }
 
         public async Task Delete(int id)
@@ -42,8 +51,8 @@ namespace BusinessLogic.Services
             var convertationParameter = await _repositoryWrapper.ConvertationParameter
                 .FindByCondition(x => x.IdпараметраКонвертации == id);
 
-            _repositoryWrapper.ConvertationParameter.Delete(convertationParameter.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.ConvertationParameter.Delete(convertationParameter.First());
+            await _repositoryWrapper.Save();
         }
     }
 }
