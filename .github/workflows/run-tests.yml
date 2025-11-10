@@ -1,0 +1,83 @@
+name: Run Tests Only
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+  workflow_dispatch:  # Позволяет запускать вручную из интерфейса GitHub
+
+env:
+  DOTNET_VERSION: '8.0.x'
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    name: Run Unit Tests
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+
+    - name: Run all tests
+      run: dotnet test --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx"
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: unit-test-results
+        path: "**/TestResults/*.trx"
+        retention-days: 30
+
+  specific-tests:
+    runs-on: ubuntu-latest
+    name: Run Specific Test Projects
+    needs: unit-tests
+    
+    strategy:
+      matrix:
+        test-project: [
+          'UsersTest',
+          'RoleTest', 
+          'SettingsTest',
+          'UsingFormatsTest',
+          'FilesTest',
+          'FileFormatsTest',
+          'ConvertationsTest',
+          'ConvertationsHistoryTest',
+          'ConvertationParametersTest',
+          'ConvertationParameterTest'
+        ]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Run ${{ matrix.test-project }}
+      run: |
+        # Ищем тестовый проект по шаблону имени
+        find . -name "*${{ matrix.test-project }}*" -type f -name "*.csproj" | head -1 | while read project; do
+          if [ -n "$project" ]; then
+            echo "Running tests for: $project"
+            dotnet test "$project" --verbosity normal --logger "trx;LogFileName=${{ matrix.test-project }}-results.trx"
+          else
+            echo "Project ${{ matrix.test-project }} not found"
+          fi
+        done
