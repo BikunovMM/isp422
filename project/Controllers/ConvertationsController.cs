@@ -62,8 +62,7 @@ namespace BackendApi.Controllers
                 IdвходногоФайла = result.IdвходногоФайла,
                 IdвыходногоФайла = result.IdвыходногоФайла,
                 IdпараметровКонвертации = result.IdпараметровКонвертации,
-                ДатаКонвертации = DateTime.Now
-
+                ДатаКонвертации = DateOnly.FromDateTime(DateTime.Today)
             };
             return Ok(response);
         }
